@@ -10,7 +10,7 @@ $(document).ready(function() {
     
     var buttonPressed = function() {
         var question = prompt ("What would you like to know?");
-        answerReturn.innerText(pickedAnswer);
+        answerReturn.innerText = pickedAnswer;
     };
     
     $("#questionButton").click(buttonPressed);
